@@ -1,5 +1,9 @@
 # Model for bacterial degradation of lipids in sinking marine snow
 
+
+
+[![DOI](https://zenodo.org/badge/770812545.svg)](https://zenodo.org/doi/10.5281/zenodo.10809048)
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fpeaudecerf/pelagic_lipid_export/HEAD)
 
 This repository contains the code associated with the theoretical model of bacterial degradation of lipids in marine snow particles sinking through the water column, and the associated computations of transfer efficiencies, as presented in the manuscript:
