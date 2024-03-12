@@ -736,9 +736,9 @@ for i, ka in enumerate(ka_l):
 		fig.axes[i+7+2].plot(2*r0l*1e6, T_test, color = colors_l[j], label = label)
 
 	fig.axes[i+7+2].set_ylim(-0.05, 1.05)
-  # we create shared axes
-	fig.axes[i+2].get_shared_x_axes().join(fig.axes[i+2], fig.axes[i+7+2])
-	fig.axes[i+2].set_xticklabels([])
+	# we create shared axes
+	fig.axes[i+2].sharex(fig.axes[i+7+2])
+	#fig.axes[i+2].set_xticklabels([])
 
 	# then, we compute the transfer efficiency integrated with delay 0 and delay 24h
 	F0 = Fz0(phi0, ka, rho_oil, rho_bal, rho_sw, mu, g, R_l, R_g, beta)
