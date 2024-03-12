@@ -19,4 +19,4 @@ The files are organised as follows:
 To run the model in Binder without the need of a local Python installation, click on the blue badge above or following the URL below:\
 https://mybinder.org/v2/gh/fpeaudecerf/pelagic_lipid_export/HEAD
 
-There, you can select “New” -> “Terminal” and execute the scripts from there.
+There, you can select “New” -> “Terminal” and execute the main script from there by typing `python oil_model.py` and pressing return.
