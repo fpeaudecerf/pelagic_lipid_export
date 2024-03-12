@@ -1,5 +1,7 @@
 # Model for bacterial degradation of lipids in sinking marine snow
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fpeaudecerf/pelagic_lipid_export/HEAD)
+
 This repository contains the code associated with the theoretical model of bacterial degradation of lipids in marine snow particles sinking through the water column, and the associated computations of transfer efficiencies, as presented in the manuscript:
 
 “Microbial metabolic specificity controls pelagic lipid export efficiency” Lars Behrendt, Uria Alcolombri, Jonathan E. Hunter, Steven Smriga, Tracy Mincer, Daniel P. Lowenstein, Yutaka Yawata, François J. Peaudecerf, Vicente I. Fernandez, Helen F. Fredricks, Henrik Almblad, Joe J. Harrison, Roman Stocker, Benjamin A. S. Van Mooy, *BioRxiv* (2024)\
@@ -15,6 +17,6 @@ The files are organised as follows:
 - **environment.yml** sets the environment for Binder, so that one can directly execute the script contained in oil_model.py in Binder and have it work there, without the need for a local Python installation.
 
 To run the model in Binder without the need of a local Python installation, click on the blue badge above or following the URL below:\
-[URL to add]
+https://mybinder.org/v2/gh/fpeaudecerf/pelagic_lipid_export/HEAD
 
 There, you can select “New” -> “Terminal” and execute the scripts from there.
