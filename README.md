@@ -2,11 +2,9 @@
 
 This repository contains the code associated with the theoretical model of bacterial degradation of lipids in marine snow particles sinking through the water column, and the associated computations of transfer efficiencies, as presented in the manuscript:
 
-“Microbial metabolic specificity controls pelagic lipid export efficiency” Lars Behrendt, Uria Alcolombri, Jonathan E. Hunter, Steven Smriga, Tracy Mincer, Daniel P. Lowenstein, Yutaka Yawata, François J. Peaudecerf, Vicente I. Fernandez, Helen F. Fredricks, Henrik Almblad, Joe J. Harrison, Roman Stocker, Benjamin A. S. Van Mooy, *BioRxiv* (2024)
-
-DOI: 10.1101/2023.12.08.570822
-
-Direct link: https://www.biorxiv.org/content/10.1101/2023.12.08.570822v1
+“Microbial metabolic specificity controls pelagic lipid export efficiency” Lars Behrendt, Uria Alcolombri, Jonathan E. Hunter, Steven Smriga, Tracy Mincer, Daniel P. Lowenstein, Yutaka Yawata, François J. Peaudecerf, Vicente I. Fernandez, Helen F. Fredricks, Henrik Almblad, Joe J. Harrison, Roman Stocker, Benjamin A. S. Van Mooy, *BioRxiv* (2024)\
+DOI of manuscript: 10.1101/2023.12.08.570822 \
+Direct link to manuscript: https://www.biorxiv.org/content/10.1101/2023.12.08.570822v1
 
 The files are organised as follows:
 - **oil_model.py** contains the chosen numerical parameters from the manuscript (as given in the Supplementary “Full description of the lipid vertical flux”), all the functions needed to compute the dynamics of degradation and sinking of marine snow particles composed of ballast and oil as presented in the model, and the functions needed to compute transfer efficiencies of lipid fluxes at different depths. These parameters and functions are used at the end of the script to generate a visualisation of results corresponding to Supplementary figure 8 of the manuscript.
