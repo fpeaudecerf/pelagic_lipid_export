@@ -398,6 +398,7 @@ def T(zT, r0l, phi0, ka, g, mu, rho_oil, rho_sw, rho_bal, t_delay): # could be r
 
 			# at that time there is still some oil in the particle
 			roiltz = roilt_f(tT2, roil0, ka, rho_oil, t_delay)
+			roiltz = roiltz.item() 
 
 			# the transfer efficiency is then accessible
 			T[i] = roiltz**3/roil0**3
